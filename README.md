@@ -1,2 +1,65 @@
 # movie_recommendation_system
 A content-based Movie Recommendation System built using Python, Pandas, Scikit-learn, and Streamlit. The system recommends movies similar to a user's selected movie by analyzing movie genres and metadata using TF-IDF vectorization and cosine similarity.
+🚀 Features
+Recommend movies similar to a selected movie
+Fast and efficient recommendation engine
+User-friendly web interface using Streamlit
+Uses Machine Learning techniques for movie similarity
+Easy to deploy on Streamlit Cloud
+🛠️ Technologies Used
+Python
+Pandas
+NumPy
+Scikit-Learn
+TF-IDF Vectorization
+Nearest Neighbors Algorithm
+Streamlit
+Pickle
+📂 Project Structure
+movie-recommendation-system/
+│
+├── app.py                 # Streamlit application
+├── model.pkl              # Trained recommendation model
+├── tfidf.pkl              # TF-IDF vectorizer
+├── movies.pkl             # Movie dataset
+├── movies_dict.pkl        # Movie dictionary
+├── requirements.txt       # Project dependencies
+├── setup.sh               # Deployment configuration
+├── movieRS.ipynb          # Jupyter Notebook used for development
+├── .gitignore
+└── README.md
+📊 How It Works
+Movie data is preprocessed.
+Genres and movie features are transformed using TF-IDF Vectorization.
+A Nearest Neighbors model is trained using cosine similarity.
+When a user selects a movie, the model finds the most similar movies.
+Recommended movies are displayed through the Streamlit interface.
+📈 Machine Learning Model
+
+The recommendation engine uses:
+
+TF-IDF Vectorizer
+Cosine Similarity
+Nearest Neighbors Algorithm
+
+These techniques help identify movies with similar characteristics and genres.
+
+🌐 Deployment
+
+The application can be deployed on:
+
+Streamlit Community Cloud
+Render
+Railway
+🔮 Future Improvements
+Movie posters using TMDB API
+Search functionality
+User ratings integration
+Hybrid recommendation system
+Personalized recommendations
+Genre-based filtering
+👨‍💻 Author
+
+Sahil Sharma
+
+Data Science & Machine Learning Enthusiast
