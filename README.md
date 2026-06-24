@@ -1,20 +1,20 @@
 # movie_recommendation_system
 A content-based Movie Recommendation System built using Python, Pandas, Scikit-learn, and Streamlit. The system recommends movies similar to a user's selected movie by analyzing movie genres and metadata using TF-IDF vectorization and cosine similarity.
 🚀 Features
-Recommend movies similar to a selected movie
-Fast and efficient recommendation engine
-User-friendly web interface using Streamlit
-Uses Machine Learning techniques for movie similarity
-Easy to deploy on Streamlit Cloud
+1.Recommend movies similar to a selected movie
+2.Fast and efficient recommendation engine
+3.User-friendly web interface using Streamlit
+4.Uses Machine Learning techniques for movie similarity
+5.Easy to deploy on Streamlit Cloud
 🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Scikit-Learn
-TF-IDF Vectorization
-Nearest Neighbors Algorithm
-Streamlit
-Pickle
+1.Python
+2.Pandas
+3.NumPy
+4.Scikit-Learn
+5.TF-IDF Vectorization
+6.Nearest Neighbors Algorithm
+7.Streamlit
+8.Pickle
 📂 Project Structure
 movie-recommendation-system/
 │
